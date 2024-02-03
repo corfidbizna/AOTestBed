@@ -1,0 +1,70 @@
+ =============
+CreatureTable Key: 
+ =============
+
+1: "---"
+- This is the row name that Unreal Engine uses to identify rows in a DataTable. Cells in this column must be unique; letters and numbers only. 
+- Since this'll also be used for the actor's filename, keep filesystem organization in mind. 
+- For example, a lion's mane jelly might be "JellyLionsMane," or a helicoprion would be "SharkHelicoprion."
+
+2: "Scientific Name" 
+- First letter capitalized, all others lowercase. 
+- Example: "Tyrannosarus rex".
+- (If this is not how scientific names are typically displayed, please differ to convention (and also let me know x_x).)
+
+3: "Nickname"
+- A more common name for the animal. First letters of words should be capitalized. 
+- Should be unique, too. 
+
+4: "Clade" 
+- Um… Clade might be too high up the ladder to be useful. We could include additional scientific classifications, but ideally we should try and pick one. 
+- We want to strike a balance between "specific" and "useful;" enough to show which animals are "fiends" taxonomically. 
+- If we do change which classification we use, let me know so I can change the data type on Unreal's side of things. 
+
+5: "Flavortext" 
+- One or two sentences describing the animal. Wit or humor is recommended, but not necessarily. 
+- An example for a lovebird would be, "While they have 'love' in their name, that does not mean they will love just anyone. A lovebird's tall, narrow beak can be quite sharp." 
+- Should contain some sort of physical or (hypothetical) behavioral information, if nothing else. 
+
+ -------------
+The above three fields would be displayed when an animal is selected. The following fields are in Unreal-flavored formats, so their structure is much more rigid. 
+ -------------
+
+6: "Group Values"
+- Structure of "(X={number},Y={number})". 
+- Group sizes will be generated with x±y individuals in it. Y should be smaller than x. 
+
+7: "Rarity"
+- Structure of "({1},{2},{3},{4},{5},{6},{7},{8})"; basically just eight non-decimal numbers separated by commas. 
+- The higher the number the more common, where 0 means the creature does not occur in the relevant period. However, the total rarity is per period. For instance, a rarity of '5' will have different results if one period has a different total rarity sum than another. 
+- The eight periods are Devonian, Carboniferous, Permian, Triassic, Jurassic, Cretaceous, Paleagene, and Neogene. 
+
+8: "Class" 
+- Structure of "BlueprintGEneratedClass'/Game/Creatures/Species/BP_C_{row name}.BP_C_{row name}_C".
+- This is Unreal's internal reference to the actor. If the actor doesn't exist yet, this will just be blank on Unreal's side. But when the actor does exist, it'll be put here, and reimporting the table will fill be reflected in Unreal. 
+
+9: "Movement Input Frequency"
+- The phase of a creature's locomotion pulse. For instance, a value of '2' will be one pulse every two seconds. 
+- For things that jet, this will be the frequency of jetting. For things that "wibb" (whatever jellyfish do), it's how frequently it "wibbs".
+- How often a creature will "pulse" for movement. Please put -1 here if the creature doesn't jet or otherwise pulse for movement. Really, any negative number will work. 
+
+10: "Length Range"
+- Structure of "(X={number},Y={number})".
+- For some reason I implemented these two backwards, so x is the max of the range and y is the min. 
+
+ -------------
+The remaining columns are not relevant for Unreal, but they're useful to us. Formatting does not need to be precise. When you reimport the DataTable in Unreal, it'll complain about these columns, but will otherwise import correctly once the warning is clicked past. 
+ -------------
+
+11: "Highres Blockout"
+- Whether or not a creature has had their high resolution model blocked out. 
+
+12: "Highres Painted"
+- Whether or not a creature has had their high resolution model painted. 
+
+13: "Gameres Completed"
+- Whether or not a creature has a corresponding actor in Unreal. This being filled out means the creature, as far as the game is concerned, is MVP. 
+
+14: "Movement Style" 
+- Recommended contents are "Vertical" for up-and-down spinal movement, "Horizontal" for side-to-side spinal movement, "Pulse" for things like jellies, and "Swarm" for things like krill, etc. 
+- For things that have spines but don't bend, I recommend saying they swim vertically. 
