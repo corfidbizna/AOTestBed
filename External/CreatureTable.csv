@@ -21,12 +21,14 @@ Scorpion1,Pterygotus,Scary Sea Scorpion,Arthropoda,A giant sea scorpion with fro
 Scorpion2,Eurypterus,Cute Sea Scorpion,Arthropoda,A giant sea scorpion with big eyes and cute little horns.,"(X=5,Y=3)","(5,0,0,0,0,0,0,0)",,2,"(X=0.3,Y=1.8)",TRUE,TRUE,FALSE,Pulse
 Squid1,Doryteuthis pealeii,Medium squid,Mollusca,A large squid commonly harvested for human food.,"(X=10,Y=8)","(0,0,0,1,1,1,5,5)",,3,"(X=0.5,Y=0.8)",TRUE,TRUE,FALSE,Pulse
 Ichthyosaur2,Ichthyosaurus,Lil Ichthyosaur,Chordata,A small ichthyosaur,"(X=8,Y=5)","(0,0,0,3,3,3,0,0)",,-1,"(X=0.5,Y=2)",TRUE,TRUE,FALSE,Horizontal
-Amm_Colligniceras,Colligniceras,Big nubby,Mollusca,,"(X=5,Y=3)","(0,0,0,0,0,5,0,0)",,1,"(X=0.3,Y=0.7)",TRUE,TRUE,FALSE,Pulse
-amm_Metiococeras,Metiococeras,lil bumpy,Mollusca,,"(X=3,Y=1)","(0,0,0,0,0,3,0,0)",,3,"(X=0.1,Y=0.5)",TRUE,TRUE,FALSE,Pulse
-amm_Placenticeras,Placenticeras,smooth,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,2,0,0)",,3,"(X=0.3,Y=1)",TRUE,TRUE,FALSE,Pulse
-amm_Psiloceras,Psiloceras,snakey,Mollusca,,"(X=10,Y=6)","(0,0,0,0,6,0,0,0)",,2,"(X=0.2,Y=0.8)",TRUE,TRUE,FALSE,Pulse
-octopus_shelled,Argonauta_hians,Paper Nautilus,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,0,2,3)",,1,"(X=0.2,Y=0.5)",TRUE,TRUE,FALSE,Pulse
-amm_Meekoceras,Meekoceras,lil oxycone,Mollusca,,"(X=20,Y=10)","(0,0,0,5,0,0,0,0)",,10,"(X=0.1,Y=0.3)",TRUE,TRUE,FALSE,Pulse
-amm_Costaclymenia,Costaclymenia ornata,regular ammonoid,Mollusca,,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,3,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
-amm_Kosmoclymenia,Kosmoclymenia lamellosa,evolute friend,Mollusca,,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,4,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
-amm_Erfoudites,Eroudites rheriensis,round one,Mollusca,,"(X105,Y=3)","(3,0,0,0,0,0,0,0)",,5,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+Amm_Colligniceras,Colligniceras,Big nubby,Mollusca,A large bumpy shelled ammonite from the Tropic Shale of Utah,"(X=5,Y=3)","(0,0,0,0,0,5,0,0)",,1,"(X=0.3,Y=0.7)",TRUE,TRUE,FALSE,Pulse
+amm_Metiococeras,Metiococeras,lil bumpy,Mollusca,A small ribbed ammonite from the Tropic Shale of Utah.,"(X=3,Y=1)","(0,0,0,0,0,3,0,0)",,3,"(X=0.1,Y=0.5)",TRUE,TRUE,FALSE,Pulse
+amm_Placenticeras,Placenticeras,smooth,Mollusca,One of the prettiest ammonites!,"(X=1,Y=0)","(0,0,0,0,0,2,0,0)",,3,"(X=0.3,Y=1)",TRUE,TRUE,FALSE,Pulse
+amm_Psiloceras,Psiloceras,snakey,Mollusca,One of the earliest ammonites to rise after the global mass extinction that ended the Triassic Period.,"(X=10,Y=6)","(0,0,0,0,6,0,0,0)",,2,"(X=0.2,Y=0.8)",TRUE,TRUE,FALSE,Pulse
+octopus_shelled,Argonauta_hians,Paper Nautilus,Mollusca,"A modern open-ocean octopus - only the females make a shell, and use it as an egg case.","(X=1,Y=0)","(0,0,0,0,0,0,2,3)",,1,"(X=0.2,Y=0.5)",TRUE,TRUE,FALSE,Pulse
+amm_Meekoceras,Meekoceras,lil oxycone,Mollusca,"A common, very slim shell from the Triassic of the American West.","(X=20,Y=10)","(0,0,0,5,0,0,0,0)",,10,"(X=0.1,Y=0.3)",TRUE,TRUE,FALSE,Pulse
+amm_Costaclymenia,Costaclymenia ornata,regular ammonoid,Mollusca,Devonian fossil from Morroco,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,3,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+amm_Kosmoclymenia,Kosmoclymenia lamellosa,evolute friend,Mollusca,Devonian fossil from Morroco,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,4,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+amm_Erfoudites,Eroudites rheriensis,round one,Mollusca,Devonian fossil from Morroco,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,5,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+amm_straight_Devonbactrites,Devonbactrites,,Mollusca,"Bactitid, friend of the ammonoids.","(X=10,Y=5)","(0,3,2,0,0,0,0,0)",,1,"(X=0.2,Y=1)",TRUE,TRUE,FALSE,Pulse
+amm_straight_Gordoniconus,Gordoniconus,,Mollusca,"Early relative of squid, wears the shell inside the body mantle.","(X=10,Y=5)","(0,3,2,0,0,0,0,0)",,3,"(X=0.2,Y=1)",TRUE,TRUE,FALSE,Pulse
