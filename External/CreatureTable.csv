@@ -26,3 +26,4 @@ amm_Metiococeras,Metiococeras,lil bumpy,Mollusca,,"(X=3,Y=1)","(0,0,0,0,0,3,0,0)
 amm_Placenticeras,Placenticeras,smooth,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,2,0,0)",,,"(X=0.3,Y=1)",TRUE,TRUE,FALSE,Pulse
 amm_Psiloceras,Psiloceras,snakey,Mollusca,,"(X=10,Y=6)","(0,0,0,0,6,0,0,0)",,,"(X=0.2,Y=0.8)",TRUE,TRUE,FALSE,Pulse
 octopus_shelled,Argonauta_hians,Paper Nautilus,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,0,2,3)",,,"(X=0.2,Y=0.5)",TRUE,TRUE,FALSE,Pulse
+amm_Meekoceras,Meekoceras,lil oxycone,Mollusca,,"(X=20,Y=10)","(0,0,0,5,0,0,0,0)",,,"(X=0.1,Y=0.3)",TRUE,TRUE,FALSE,Pulse
