@@ -27,3 +27,6 @@ amm_Placenticeras,Placenticeras,smooth,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,2,0,0)"
 amm_Psiloceras,Psiloceras,snakey,Mollusca,,"(X=10,Y=6)","(0,0,0,0,6,0,0,0)",,2,"(X=0.2,Y=0.8)",TRUE,TRUE,FALSE,Pulse
 octopus_shelled,Argonauta_hians,Paper Nautilus,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,0,2,3)",,1,"(X=0.2,Y=0.5)",TRUE,TRUE,FALSE,Pulse
 amm_Meekoceras,Meekoceras,lil oxycone,Mollusca,,"(X=20,Y=10)","(0,0,0,5,0,0,0,0)",,10,"(X=0.1,Y=0.3)",TRUE,TRUE,FALSE,Pulse
+amm_Costaclymenia,Costaclymenia ornata,regular ammonoid,Mollusca,,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,3,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+amm_Kosmoclymenia,Kosmoclymenia lamellosa,evolute friend,Mollusca,,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,4,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
+amm_Erfoudites,Eroudites rheriensis,round one,Mollusca,,"(X105,Y=3)","(3,0,0,0,0,0,0,0)",,5,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
