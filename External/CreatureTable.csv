@@ -20,4 +20,8 @@ JellyMoonJelly,Aurelia aurita,Little jelly,Cnidaria,"Light as a feather, stiff a
 Scorpion1,Pterygotus,Scary Sea Scorpion,Arthropoda,A giant sea scorpion with front pincher arms,"(X=5,Y=3)","(5,0,0,0,0,0,0,0)",,1,"(X=0.5,Y=2)",TRUE,TRUE,FALSE,Pulse
 Scorpion2,Eurypterus,Cute Sea Scorpion,Arthropoda,A giant sea scorpion with big eyes and cute little horns.,"(X=5,Y=3)","(5,0,0,0,0,0,0,0)",,2,"(X=0.3,Y=1.8)",TRUE,TRUE,FALSE,Pulse
 Squid1,Doryteuthis pealeii,Medium squid,Mollusca,A large squid commonly harvested for human food.,"(X=10,Y=8)","(0,0,0,1,1,1,5,5)",,3,"(X=0.5,Y=0.8)",TRUE,TRUE,FALSE,Pulse
-,Ichthyosaurus,Lil Ichthyosaur,Chordata,A small ichthyosaur,"(X=8,Y=5)","(0,0,0,3,3,3,0,0)",,-1,"(X=0.5,Y=2)",TRUE,TRUE,FALSE,Horizontal
+Ichthyosaur2,Ichthyosaurus,Lil Ichthyosaur,Chordata,A small ichthyosaur,"(X=8,Y=5)","(0,0,0,3,3,3,0,0)",,-1,"(X=0.5,Y=2)",TRUE,TRUE,FALSE,Horizontal
+Amm_Colligniceras,Colligniceras,Big nubby,Mollusca,,"(X=5,Y=3)","(0,0,0,0,0,5,0,0)",,,"(X=0.3,Y=0.7)",TRUE,TRUE,FALSE,Pulse
+amm_Metiococeras,Metiococeras,lil bumpy,Mollusca,,"(X=3,Y=1)","(0,0,0,0,0,3,0,0)",,,"(X=0.1,Y=0.5)",TRUE,TRUE,FALSE,Pulse
+amm_Placenticeras,Placenticeras,smooth,Mollusca,,"(X=1,Y=0)","(0,0,0,0,0,2,0,0)",,,"(X=0.3,Y=1)",TRUE,TRUE,FALSE,Pulse
+amm_Psiloceras,Psiloceras,snakey,Mollusca,,"(X=10,Y=6)","(0,0,0,0,6,0,0,0)",,,"(X=0.2,Y=0.8)",TRUE,TRUE,FALSE,Pulse
