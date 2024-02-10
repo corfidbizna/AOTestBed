@@ -32,3 +32,4 @@ amm_Kosmoclymenia,Kosmoclymenia lamellosa,evolute friend,Mollusca,Devonian fossi
 amm_Erfoudites,Eroudites rheriensis,round one,Mollusca,Devonian fossil from Morroco,"(X=5,Y=3)","(3,0,0,0,0,0,0,0)",,5,"(X=0.05,Y=0.1)",TRUE,TRUE,FALSE,Pulse
 amm_straight_Devonbactrites,Devonbactrites,,Mollusca,"Bactitid, friend of the ammonoids.","(X=10,Y=5)","(0,3,2,0,0,0,0,0)",,1,"(X=0.2,Y=1)",TRUE,TRUE,FALSE,Pulse
 amm_straight_Gordoniconus,Gordoniconus,,Mollusca,"Early relative of squid, wears the shell inside the body mantle.","(X=10,Y=5)","(0,3,2,0,0,0,0,0)",,3,"(X=0.2,Y=1)",TRUE,TRUE,FALSE,Pulse
+amm_Nautilus,Nautilus pompillius,Nautilus,Mollusca,"""Living fossil"" - a nautilus that hasn't changed that much since ancience ocean times.","(X=3,Y=2)","(2,2,2,2,2,2,2,2)",,2,"(X=0,1,Y=0.4)",TRUE,TRUE,FALSE,Pulse
